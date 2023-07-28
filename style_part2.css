@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(234, 240, 240);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  padding:20px;
+  background-color: rgb(89, 200, 89);
+  position: static;
+}
+ul>li{
+  position: relative;
+  bottom: 35px;
+  padding: 10px;
+  display: inline;
+  float: right;
+}
+a{
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+p{
+  padding: 10px;
+}
+.content{
+  padding:10px 15%  ;
+}
+.container{
+  padding:10px 20%  ;
+  height: 80%;
+  display: inline-flex;
+}
+.box{
+  margin: 5PX;
+  padding: 15PX;
+  height: 100%;
+  width: 33.33%;
+  background-color: rgb(215, 214, 214);
+}
